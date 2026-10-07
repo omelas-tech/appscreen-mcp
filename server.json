@@ -5,6 +5,10 @@
   "description": "Render App Store and Google Play screenshots from app captures: device frames, sizes, languages.",
   "version": "0.28.3",
   "websiteUrl": "https://appscreen.co/mcp",
+  "repository": {
+    "url": "https://github.com/omelas-tech/appscreen-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://appscreen.co/icon-512.png",
