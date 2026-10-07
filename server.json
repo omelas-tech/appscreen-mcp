@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.appscreen/mcp",
+  "title": "AppScreen",
+  "description": "Render App Store and Google Play screenshots from app captures: device frames, sizes, languages.",
+  "version": "0.28.3",
+  "websiteUrl": "https://appscreen.co/mcp",
+  "icons": [
+    {
+      "src": "https://appscreen.co/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@appscreen/mcp",
+      "version": "0.28.3",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APPSCREEN_API_KEY",
+          "description": "Optional MCP key (mcm_live_…) from https://appscreen.co/account/keys. Omit for 5 free anonymous renders.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "APPSCREEN_BASE_URL",
+          "description": "Override the API base URL. Defaults to https://api.appscreen.co.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
