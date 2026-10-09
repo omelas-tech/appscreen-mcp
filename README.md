@@ -69,7 +69,7 @@ Signed-in usage is metered in **credits: 1 credit = 1 exported image** (screens 
 | Plan | Credits / month | Notes |
 |---|---|---|
 | Free | 50 | iOS 6.9, English, 10 screens per export. 3 renders / hour. |
-| Starter — $4 / mo | 400 | All 4 sizes, any 3 languages per export, auto-translate. 3 renders / hour. |
+| Starter — $4 / mo | 400 | All 5 sizes, any 3 languages per export, auto-translate. 3 renders / hour. |
 | Pro — $8 / mo | 2,500 | All 15 languages, 200 screens per export. Full-rate MCP. |
 | Team — $29 / mo | 8,000 pooled | 3 seats included. Full-rate MCP. |
 

@@ -45,6 +45,7 @@ const FALLBACK: Catalog = {
     { id: "ios-6.9", label: "iPhone 6.9\"", width: 1320, height: 2868, store: "appstore" },
     { id: "ios-6.7", label: "iPhone 6.7\"", width: 1290, height: 2796, store: "appstore" },
     { id: "ios-6.5", label: "iPhone 6.5\"", width: 1284, height: 2778, store: "appstore" },
+    { id: "ios-6.3", label: "iPhone 6.3\"", width: 1206, height: 2622, store: "appstore" },
     { id: "play", label: "Play phone", width: 1080, height: 1920, store: "playstore" },
   ],
   langs: ["en", "es", "fr", "de", "it", "pt", "nl", "sv", "pl", "tr", "ru", "ar", "ja", "ko", "zh"],

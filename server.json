@@ -3,7 +3,7 @@
   "name": "co.appscreen/mcp",
   "title": "AppScreen",
   "description": "Render App Store and Google Play screenshots from app captures: device frames, sizes, languages.",
-  "version": "0.28.3",
+  "version": "0.29.0",
   "websiteUrl": "https://appscreen.co/mcp",
   "repository": {
     "url": "https://github.com/omelas-tech/appscreen-mcp",
@@ -22,7 +22,7 @@
     {
       "registryType": "npm",
       "identifier": "@appscreen/mcp",
-      "version": "0.28.3",
+      "version": "0.29.0",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
