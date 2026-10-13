@@ -791,7 +791,7 @@ function registerResources(server: McpServer): void {
               checkoutUrl: UPGRADE_URL,
               note: "Usage is metered in credits: 1 credit = 1 exported image (screens × sizes × languages). Failed exports are refunded; auto-translate is free. No watermark on any plan. Unused plan credits roll over one billing period.",
               plans: [
-                "Free — $0: 50 credits/month, iOS 6.9 only, English only, 10 screens/export, 1 project.",
+                "Free — $0: 50 credits/month, any one size per export, English only, 10 screens/export, 1 project.",
                 "Starter — $4/mo or $36/yr: 400 credits/month, all 5 sizes, any 3 languages per export, auto-translate, 50 screens/export, 3 projects.",
                 "Pro — $8/mo or $60/yr: 2,500 credits/month, all 15 languages, 200 screens/export, 20 projects, programmatic API keys, full-rate MCP.",
                 "Team — $29/mo or $288/yr: 8,000 pooled credits/month, 3 seats included (+$6/seat/mo), unlimited projects, roles, shared projects.",
