@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "appscreen": {
+      "command": "npx",
+      "args": ["-y", "@appscreen/mcp"]
+    }
+  }
+}
